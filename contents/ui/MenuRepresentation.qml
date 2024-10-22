@@ -360,14 +360,14 @@ Kicker.DashboardWindow {
             }
 
             iconSize: plasmoid.configuration.systemActionIconSize
-            cellWidth: iconSize + (Kirigami.Units.largeSpacing * (showLabels ? 3 : 1))
+            cellWidth: iconSize + (Kirigami.Units.largeSpacing * (showLabels ? 3 : 1)) * 2
             cellHeight: cellWidth
             // height: cellHeight
             // width: cellWidth * count
             numberColumns: model.count
             // maxVisibleRows: 1
             
-            opacity: 0.9
+            opacity: 0.5
 
             dragEnabled: true
             showLabels: plasmoid.configuration.showSystemActionLabels

@@ -197,9 +197,10 @@ FocusScope {
                 flickDeceleration: 4000
 
                 highlightFollowsCurrentItem: true
-                highlight: PlasmaExtras.Highlight {
-                    visible: gridView.highlightFollowsCurrentItem
-                }
+                // highlight: PlasmaExtras.Highlight {
+                //     visible: gridView.highlightFollowsCurrentItem
+                // }
+                highlight: Rectangle { color: "#FFFFFF"; radius: 5; opacity: 0.25 }
                 highlightMoveDuration: 0
 
                 delegate: ItemGridDelegate {

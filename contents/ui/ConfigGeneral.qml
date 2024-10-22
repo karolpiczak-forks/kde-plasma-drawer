@@ -218,7 +218,7 @@ KCM.SimpleKCM {
             currentFolder: StandardPaths.standardLocations(StandardPaths.PicturesLocation)[0]
             nameFilters: [ "Image files (*.jpg *.jpeg *.png *.bmp)", "All files (*)" ]
             onAccepted: {
-                cfg_customBackgroundImagePath = String(fileUrl).replace("file://", "");
+                cfg_customBackgroundImagePath = String(selectedFile).replace("file://", "");
             }
         }
         

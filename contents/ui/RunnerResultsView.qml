@@ -88,6 +88,7 @@ FocusScope {
             boundsBehavior: Flickable.StopAtBounds
 
             highlightFollowsCurrentItem: false
+            highlight: Rectangle { color: "#FFFFFF"; radius: 5; opacity: 0.25 }
             highlightMoveDuration: 0
             highlightResizeDuration: 0
 

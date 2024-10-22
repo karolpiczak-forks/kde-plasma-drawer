@@ -109,7 +109,8 @@ FocusScope {
 
             currentIndex: -1
             highlightFollowsCurrentItem: true
-            highlight: PlasmaExtras.Highlight {}
+            // highlight: PlasmaExtras.Highlight {}
+            highlight: Rectangle { color: "#FFFFFF"; radius: 5; opacity: 0.25 }
             highlightMoveDuration: 0
 
             property int targetIconSize: itemList.iconSize
